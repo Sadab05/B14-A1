@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family:inter;
+}
+
+.container{
+    max-width: 1320px;
+    margin: auto;
+}
+
+.common-btn{
+    background-color: #1d4ed8FF;
+    width: 188px;
+    height: 47px;
+    border-radius: 12px;
+    font-weight: bold;
+    font-size: 16px;
+    color: white;
+    border: 0px;
+    cursor: pointer;
+}
+.common-btn:hover{
+    background-color: rgb(67, 110, 226);
+    transition: 0.3s;
+}
+
+/* navbar */
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 0;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    gap: 24px;
+    align-items: center;
+
+}
+
+ul li a{
+    text-decoration: none;
+    font-size: 16px;
+    color:#575757FF;
+}
+
+/* hero banner */
+.hero-banner{
+    background-image: url(./assets/banner.jpg);
+    background-repeat: no-repeat;
+    background-position:center center;
+    background-size: 100%;
+    color: white;
+    text-align: center;
+}
+
+.hero-banner h1{
+    font-size: 80px;
+    padding: 136px 0 0 0;
+}
+.hero-banner p{
+    font-size: 22px;
+    max-width: 829px;
+    margin: auto;
+    align-items: center;
+}
+.connect{
+    font-style: italic;
+}
+
+.hero-banner button{
+    margin-top: 278px;
+    margin-bottom: 79px;
+    font-size: 24px;
+    width: 282px;
+    height: 74px;
+}
+
+/* meet the speakers */
+
+.img-border{
+    border-radius: 20px;
+}
+
+.speakers h1{
+    font-size: 64px;
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 56px;
+}
+
+.cards{
+    gap: 30px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.card-style{
+    border: 1px solid #E5E7EB;
+    border-radius: 20px;
+
+}
+
+.card-style img{
+    border-radius: 20px 20px 0 0 !important;
+}
+
+.text-container{
+    padding: 30px;
+}
+
+.text-container h6{
+    font-size: 12px;
+    color:#2563ebFF;
+    font-weight: 600;
+}
+.text-container h3{
+    font-size: 20px;
+    padding: 8px 0;
+}
+.text-container p{
+    font-size: 14px;
+}
