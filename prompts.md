@@ -1,7 +1,3 @@
-You guys didn't clear it out to which extent i can use AI when working on the AI section, So i used AI to do the repititive tasks for me, i hope it wouldn't violate the rules.
-
-
-
 1st prompt:I've attached an Ui picture. I'm actually making a landing page for Dev conference website, and in the bottom it tells me to create a suitable section with Ai, well i dont want you to generate codes for me, instead i want you to suggest me some section that would go well with the theme of this website. and it would be great if i can get a visual representation of each section you recommend me.
 
 
