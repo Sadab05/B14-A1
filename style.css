@@ -212,3 +212,36 @@ nav{
     padding: 48px;
     border-radius: 20px;
 }
+
+
+/* schedule section */
+
+.schedule-head{
+    text-align: center;
+    padding: 30px;
+}
+.schedule-head h1{
+    margin-top: 110px;
+    font-size: 48px;
+}
+.schedule-head p{
+    margin-top: 10px;
+    font-size: 16px;
+    color: #575757FF;
+}
+
+/* schedule cards */
+.schedule-cards{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.schedule-card-design{
+    border: 1px solid #E5E7EB;
+    padding: 50px;
+    border-radius: 15px;
+}
+.schedule-card-design ul{
+    
+}
