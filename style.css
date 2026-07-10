@@ -162,6 +162,9 @@ nav{
 .pricing-cards h6{
     font-size: 13px;
 }
+.special-pricing-card h6{
+    color: #93C5FD;
+}
 .pricing-cards h2{
     font-size: 44px;
 }
@@ -233,15 +236,53 @@ nav{
 /* schedule cards */
 .schedule-cards{
     display: flex;
-    justify-content: center;
     gap: 50px;
+    justify-content: center;
+    align-items: stretch;
+    padding: 48px;
 }
 
 .schedule-card-design{
     border: 1px solid #E5E7EB;
-    padding: 50px;
+    padding: 48px;
     border-radius: 15px;
+    max-width: 350px;
+}
+
+.schedule-card-top{
+    margin-bottom: 20px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.schedule-card-top h4{
+    font-size: 16px;
+    color: #1d4ed8FF;
+}
+.schedule-card-top h3{
+    font-size: 20px;
+}
+.schedule-card-top p{
+    font-size: 13px;
+    color: #575757FF;
 }
 .schedule-card-design ul{
-    
+    padding: 20px;
+    font-size: 14px;
+}
+.schedule-card-design ul li{
+    padding: 10px;
+}
+.schedule-card-design ul li::marker{
+    color: #1d4ed8FF;
+    font-weight: bold;
+}
+.schedule-card-design ul li h4{
+    color: #1d4ed8FF;
+    font-size: 13px;
+    margin-bottom: 5px;
+}
+.schedule-card-design ul li h3{
+    font-size: 16px;
+    margin-bottom: 5px;
 }
