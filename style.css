@@ -150,16 +150,13 @@ nav{
     margin-top: 200px;
     font-size: 48px;
     margin-bottom: 12px;
+    text-align: center;
 }
 .pricing-head h5{
     font-size: 16px;
     font-weight: 400;
     color: #575757FF;
-}
-
-.pricing-head h1,h5{
     text-align: center;
-    
 }
 
 .pricing-cards h6{
@@ -187,6 +184,7 @@ nav{
     display: flex;
     gap: 50px;
     justify-content: center;
+    align-items: stretch;
     padding: 48px;
     
 }
@@ -194,24 +192,23 @@ nav{
 .normal-pricing-card{
     display: flex;
     flex-direction: column;
+    flex: 0.2;
     border: 1px solid #E5E7EB;
     border-radius: 20px;
-    padding: 45px;
+    padding: 48px;
 }
 
-.normal-pricing-card button{
+.normal-pricing-card button, .special-pricing-card button{
+    margin-top: auto;
     width: 100%;
 }
 
 .special-pricing-card{
     display: flex;
     flex-direction: column;
+    flex: 0.2;
     background-color: #0d1b2aFF;
     color: white;
     padding: 48px;
     border-radius: 20px;
-}
-
-.special-pricing-card button{
-    width: 100%;
 }
