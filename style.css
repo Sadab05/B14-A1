@@ -26,6 +26,23 @@
     transition: 0.3s;
 }
 
+.outline-btn{
+    background-color: white;
+    border: 1px solid #1d4ed8FF;
+    width: 188px;
+    height: 47px;
+    border-radius: 12px;
+    font-weight: bold;
+    font-size: 16px;
+    color: #1d4ed8FF;
+    cursor: pointer;
+}
+
+.outline-btn:hover{
+    background-color: rgb(197, 197, 197);
+    transition: 0.3s;
+}
+
 /* navbar */
 
 nav{
@@ -35,7 +52,7 @@ nav{
     padding: 24px 0;
 }
 
-ul{
+.nav-ul ul{
     display: flex;
     list-style: none;
     gap: 24px;
@@ -43,7 +60,7 @@ ul{
 
 }
 
-ul li a{
+.nav-ul ul li a{
     text-decoration: none;
     font-size: 16px;
     color:#575757FF;
@@ -125,4 +142,76 @@ ul li a{
 }
 .text-container p{
     font-size: 14px;
+}
+
+/* pricing section */
+
+.pricing-head h1{
+    margin-top: 200px;
+    font-size: 48px;
+    margin-bottom: 12px;
+}
+.pricing-head h5{
+    font-size: 16px;
+    font-weight: 400;
+    color: #575757FF;
+}
+
+.pricing-head h1,h5{
+    text-align: center;
+    
+}
+
+.pricing-cards h6{
+    font-size: 13px;
+}
+.pricing-cards h2{
+    font-size: 44px;
+}
+.pricing-cards p{
+    font-size: 13px;
+    color: #888888FF;
+    margin-bottom: 20px;
+}
+
+.pricing-cards ul{
+    padding: 20px;
+    font-size: 14px;
+    
+}
+.pricing-cards ul li{
+    padding: 10px;
+}
+
+.pricing-cards{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    padding: 48px;
+    
+}
+
+.normal-pricing-card{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #E5E7EB;
+    border-radius: 20px;
+    padding: 45px;
+}
+
+.normal-pricing-card button{
+    width: 100%;
+}
+
+.special-pricing-card{
+    display: flex;
+    flex-direction: column;
+    background-color: #0d1b2aFF;
+    color: white;
+    padding: 48px;
+    border-radius: 20px;
+}
+
+.special-pricing-card button{
+    width: 100%;
 }
