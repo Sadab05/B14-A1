@@ -260,7 +260,7 @@ nav{
     color: #1d4ed8FF;
 }
 .schedule-card-top h3{
-    font-size: 20px;
+    font-size: 0 10px;
 }
 .schedule-card-top p{
     font-size: 13px;
@@ -271,7 +271,11 @@ nav{
     font-size: 14px;
 }
 .schedule-card-design ul li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     padding: 10px;
+    gap: 4px;
 }
 .schedule-card-design ul li::marker{
     color: #1d4ed8FF;
@@ -290,6 +294,64 @@ nav{
     font-size: 27px;
     color: #1d4ed8FF;
     background-color: #EDF2FE;
-    padding: 2px;
+    padding: 3px;
     border-radius: 10px;
+}
+
+/* schedule footer */
+.schedule-footer{
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+    margin: auto;
+    gap: 30px;
+    padding: 20px 50px;
+    align-items: center;
+    background-color: #0d1b2aFF;
+    border-radius: 15px;
+    margin-bottom: 100px;
+}
+
+.schedule-footer-left{
+    display: flex;
+    gap: 30px;
+}
+.schedule-footer h4{
+    color: white;
+}
+.schedule-footer p{
+    font-size: 14px;
+    color: #888888FF;
+}
+.schedule-footer-left .icon{
+    background-color: #0d1b2aFF;
+    color: white;
+}
+
+/* footer */
+footer{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    padding: 15px;
+    background-color: #0d1b2aFF;
+}
+footer p{
+    color: white;
+    padding: 2px;
+}
+
+.footer-icon{
+    color: white;
+    font-size: 20px;
+    text-align: left;
+}
+
+.footer-icon a{
+    font-size: 14px;
+    color: white;
+}
+.footer-mid a{
+    color: white;
 }
